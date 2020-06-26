@@ -1,15 +1,17 @@
-django-datetime-widget
-======================
+django-datetime-widget2
+=======================
 
-.. image:: https://pypip.in/v/django-datetime-widget/badge.png
-    :target: https://crate.io/packages/django-datetime-widget
-.. image:: https://pypip.in/d/django-datetime-widget/badge.png
-    :target: https://crate.io/packages/django-datetime-widget
+.. image:: https://pypip.in/v/django-datetime-widget2/badge.png
+    :target: https://crate.io/packages/django-datetime-widget2
+.. image:: https://pypip.in/d/django-datetime-widget2/badge.png
+    :target: https://crate.io/packages/django-datetime-widget2
 
-``django-datetime-widget``  is a simple and clean picker widget for DateField, Timefiled and DateTimeField in Django framework. It is based on `Bootstrap datetime picker
-<https://github.com/smalot/bootstrap-datetimepicker>`_, supports both Bootstrap 3 and Bootstrap 2 .
+``django-datetime-widget2`` is derived from the long-standing ``django-datetime-widget`` project of Alfredo Saglimbeni (asaglimbeni). It includes fixes that enable its use with ``Django>=2.1``.
 
-``django-datetime-widget`` is perfect when you use a DateField, TimeField or DateTimeField in your model/form where is necessary to display the corresponding picker with a specific date/time format. Now it supports django localization.
+``django-datetime-widget2``  is a simple and clean picker widget for ``DateField``, ``Timefield`` and ``DateTimeField`` in ``Django`` framework. It is based on `Bootstrap datetime picker
+<https://github.com/smalot/bootstrap-datetimepicker>`_, and supports both Bootstrap 3 and Bootstrap 2 .
+
+``django-datetime-widget2`` is perfect when you use a ``DateField``, ``TimeField`` or ``DateTimeField`` in your model/form where is necessary to display the corresponding picker with a specific date/time format. Now it supports ``Django`` localization.
 
 Available widgets
 -----------------
@@ -74,9 +76,9 @@ To use it, just enable the <code>showMeridian</code> property.
 Installation
 ------------
 
-#. Install django-datetime-widget using pip. For example::
+#. Install django-datetime-widget2 using pip. For example::
 
-    pip install django-datetime-widget
+    pip install django-datetime-widget2
 
 #. Add  ``datetimewidget`` to your INSTALLED_APPS.
 
@@ -193,6 +195,7 @@ Integer.  Default: 2
 
 The view that the datetimepicker should show when it is opened.
 Accepts values of :
+
  * '0'  for the hour view
  * '1'  for the day view
  * '2'  for month view (the default)
@@ -249,10 +252,14 @@ If true, displays a "Clear" button at the rigth side of the input value.
 
 CHANGELOG
 ---------
+* 0.9.4V
+
+  * Support for Django >= 2.1
+
 * 0.9.3V
-  
-  * FIX #48 
-  * Python 3 support 
+
+  * FIX #48
+  * Python 3 support
 
 * 0.9.2V
 
@@ -267,50 +274,49 @@ CHANGELOG
   * code refactor and bug fixes.
 
 * 0.9V
-  
+
   * Update bootstrap datetime picker to the last version.
-  
+
   * CLOSE #20 (support bootstrap 2 and 3).
-  
+
   * CLOSE #17 TimeWidget.
-  
+
   * CLOSE #16 DateWidget.
-  
+
   * new clear button at the rigth side of the input value.
-  
+
   * add dateTimeExample django project.
 
 * 0.6V
-  
+
   * Add Clear button
-  
+
   * Fix TypeError bug
-  
+
   * Support localization
-  
+
   * Update static file with last commit of bootstrap-datetime-picker
-  
+
   * update js lib, native localization, thanks to @quantum13
-  
+
   * autoclose is true by default
 
 Contribute
 ----------
 
 1. Check for open issues or open a fresh issue to start a discussion around a feature idea or a bug. There is a `Contributor Friendly`_ tag for issues that should be ideal for people who are not very familiar with the codebase yet.
-  
+
   * If you feel uncomfortable or uncertain about an issue or your changes, feel free to email @asaglimbeni and he will happily help you via email, Skype, remote pairing or whatever you are comfortable with.
 
-2. Fork develop branch from `the repository`_ on GitHub to start making your changes to the **develop** branch (or branch off of it).
+2. Fork and develop branch from `the repository`_ on GitHub to start making your changes to the **develop** branch (or branch off of it).
 3. Please show that the bug was fixed or that the feature works as expected.
 4. Send a pull request and bug the maintainer until it gets merged and published. :)
 5. Your changes will be released on the next version of django_datetime_widget!
 
-.. _`the repository`: https://github.com/asaglimbeni/django-datetime-widget
-.. _Contributor Friendly: https://github.com/asaglimbeni/django-datetime-widget/issues?direction=desc&labels=Contributor+Friendly&page=1&sort=updated&state=open
+.. _`the repository`: https://github.com/BobBowles/django-datetime-widget2
+.. _Contributor Friendly: https://github.com/BobBowles/django-datetime-widget2/issues?direction=desc&labels=Contributor+Friendly&page=1&sort=updated&state=open
 
 
 TODO
 ----
 #. widget for DateTime range.
-

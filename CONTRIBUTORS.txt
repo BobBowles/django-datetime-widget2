@@ -2,6 +2,7 @@
 Contributors
 ============
 
+* Alfredo Saglimbeni
 * Michael Jones
 * Melvyn Sopacua
 * James Rutherford
@@ -9,3 +10,4 @@ Contributors
 * Vladimir Khramov
 * Ben (bcbwilla)
 * Ionel Cristian Mărieș
+* Erwin Gelissen
