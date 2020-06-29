@@ -4,7 +4,7 @@ from distutils.core import setup
 from setuptools import setup, find_packages
 
 setup(name = "django-datetime-widget2",
-    version = "0.9.4",
+    version = "0.9.5",
     description = "Django-datetime-widget is a simple and clean widget for DateField, Timefiled and DateTimeField  in Django framework. It is based on Bootstrap datetime picker, supports both Bootstrap 3 and Bootstrap 2",
     long_description=open('README.rst').read(),
     author = "Alfredo Saglimbeni",
@@ -13,7 +13,7 @@ setup(name = "django-datetime-widget2",
     license = "BSD",
     packages = find_packages(),
     include_package_data=True,
-    install_requires = ['django','pytz'],
+    install_requires = ['django','pytz','six'],
     classifiers = [
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',

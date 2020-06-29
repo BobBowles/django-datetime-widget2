@@ -6,7 +6,7 @@ django-datetime-widget2
 .. image:: https://pypip.in/d/django-datetime-widget2/badge.png
     :target: https://crate.io/packages/django-datetime-widget2
 
-``django-datetime-widget2`` is derived from the long-standing ``django-datetime-widget`` project of Alfredo Saglimbeni (asaglimbeni). It includes fixes that enable its use with ``Django>=2.1``.
+``django-datetime-widget2`` is derived from the long-standing ``django-datetime-widget`` project of Alfredo Saglimbeni (asaglimbeni). It includes fixes that enable its use with ``Django>=2.1`` including ``Django 3``.
 
 ``django-datetime-widget2``  is a simple and clean picker widget for ``DateField``, ``Timefield`` and ``DateTimeField`` in ``Django`` framework. It is based on `Bootstrap datetime picker
 <https://github.com/smalot/bootstrap-datetimepicker>`_, and supports both Bootstrap 3 and Bootstrap 2 .

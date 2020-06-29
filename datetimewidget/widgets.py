@@ -9,7 +9,7 @@ from django.forms import forms, widgets
 from django.forms.widgets import MultiWidget, DateTimeInput, DateInput, TimeInput
 from django.utils.formats import get_format, get_language
 from django.utils.safestring import mark_safe
-from django.utils.six import string_types
+from six import string_types
 
 try:
     from django.forms.widgets import to_current_timezone
@@ -330,4 +330,3 @@ class TimeWidget(PickerWidgetMixin, TimeInput):
         options['format'] = options.get('format', 'hh:ii')
 
         super(TimeWidget, self).__init__(attrs, options, usel10n, bootstrap_version)
-
